@@ -13,14 +13,18 @@ def main():
     number = int(input("Enter a number: "))
     # print out a message that says: "The sqare of ? is ?" where the question
     # marks are replaced with the value read in from the user and its square.
-
+    squared = number * number
+    print("The square of", number, "is", squared)
     # copy your input statement from above and replace "int" with "float"
-
+    number1 = float(input("Enter a number: "))
     # copy the print statment from above
-
+    squared1 = number1 * number1
+    print("The square of", number1, "is", squared1)
     # copy your input statement from above and replace "int" with "eval"
-
+    number2 = eval(input("Enter a number: "))
     # copy the print statment from above
+    squared2 = number2 * number2
+    print("The square of", number2, "is", squared2)
 
 # call the function main
 main()
